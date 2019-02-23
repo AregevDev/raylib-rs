@@ -15,3 +15,27 @@ edition = "2018"
 raylib-sys = { version = "0.9", path = "../raylib-sys" }
 libc = "0.2.45"
 lazy_static = "1.2.0"
+
+[[example]]
+name = "basic_window"
+path = "../examples/core/basic_window.rs"
+
+[[example]]
+name = "input_keys"
+path = "../examples/core/input_keys.rs"
+
+[[example]]
+name = "input_mouse"
+path = "../examples/core/input_mouse.rs"
+
+[[example]]
+name = "mouse_wheel"
+path = "../examples/core/mouse_wheel.rs"
+
+[[example]]
+name = "random_values"
+path = "../examples/core/random_values.rs"
+
+[[example]]
+name = "color_select"
+path = "../examples/core/color_select.rs"
